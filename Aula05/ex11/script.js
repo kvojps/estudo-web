@@ -3,6 +3,7 @@ function verificar() {
     var ano = data.getFullYear()
     var anoUsuario = document.getElementById('txtano')
     var res = document.querySelector('div#res')
+
     if (anoUsuario.value.length == 0 || anoUsuario.value > ano) {
         window.alert('[ERRO] Verifique os dados e tente novamente !')
     } else {
@@ -34,6 +35,7 @@ function verificar() {
                 img.setAttribute('src', 'src/idoso-F.jpeg')
             }
         }
+        
         res.style.textAlign = 'center'
         res.innerHTML = `${genero} com ${idade} anos`
         res.appendChild(img)
