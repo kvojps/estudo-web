@@ -97,6 +97,25 @@ section {
     background-color: rgba(5, 190, 236, 0.651);
 }
 
-.barra-imc {
-    
+#barra-imc {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+}
+
+#barra-imc00 {
+    background-color: rgba(231, 231, 27, 0.89);
+    width: 33.3%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#barra-imc01 {
+    background-color: rgba(5, 236, 5, 0.438);
+    width: 33.3%;
+}
+
+#barra-imc02 {
+    background-color: rgba(231, 27, 27, 0.76);
+    width: 33.3%;
+    border-radius: 0px 10px 10px 0px;
 }
