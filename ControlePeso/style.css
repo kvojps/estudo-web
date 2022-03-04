@@ -76,3 +76,23 @@ section {
     border-radius: 10px;
     margin-bottom: 10px;
 }
+
+#blocos-comparativo {
+    display: flex;
+    justify-content:space-around;
+}
+
+.bloco {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#bloco00 {
+    background-color: rgba(5, 236, 5, 0.651);
+}
+
+#bloco01 {
+    background-color: rgba(5, 190, 236, 0.651);
+}
