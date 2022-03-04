@@ -59,22 +59,38 @@ section {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.barra-progresso {
-    height: 10px;
-    padding: 5px;
-    background-color: rgba(5, 236, 5, 0.651);
-    text-align: center;
-    border-radius: 10px;
-    margin-bottom: 10px;
+#barra-evolucao {
+    height: 20px;
+    display: flex;
+    justify-content: center;
 }
 
-.barra-tempo {
-    height: 10px;
-    padding: 5px;
+#barra-progresso00 {
+    background-color: rgba(5, 236, 5, 0.651);
+    width: 75%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#barra-progresso01 {
+    background-color: rgba(128, 128, 128, 0.205);
+    width: 25%;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#barra-tempo00 {
     background-color: rgba(5, 190, 236, 0.651);
-    text-align: center;
-    border-radius: 10px;
-    margin-bottom: 10px;
+    width: 50%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#barra-tempo01 {
+    background-color: rgba(128, 128, 128, 0.205);
+    width: 50%;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#paragrafo-evolucao {
+    margin-left: 10px;
 }
 
 #blocos-comparativo {
@@ -91,16 +107,20 @@ section {
 
 #bloco00 {
     background-color: rgba(5, 236, 5, 0.651);
+    text-align: center;
+    justify-content: center;
 }
 
 #bloco01 {
     background-color: rgba(5, 190, 236, 0.651);
+    text-align: center;
 }
 
 #barra-imc {
     display: flex;
     justify-content: center;
     height: 30px;
+    text-align: center;
 }
 
 #barra-imc00 {
