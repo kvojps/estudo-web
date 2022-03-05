@@ -150,6 +150,7 @@ section {
     width: 100px;
     height: 100px;
     padding: 10px;
+    border-radius: 50%;
     background-color: black;
 }
 
@@ -165,4 +166,30 @@ section {
 
 #barra-monitoramento02 {
     background-color: rgba(5, 190, 236, 0.651);
+}
+
+#enviar-peso {
+    display: flex;
+    justify-content: center;
+}
+
+#form-peso {
+    padding: 5px;
+    margin-right: 5px;
+    width: 100px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+#botao-enviar {
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.barra-monitoramento p {
+    font-size: 12px;
 }
