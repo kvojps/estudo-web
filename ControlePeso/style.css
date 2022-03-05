@@ -139,3 +139,30 @@ section {
     width: 33.3%;
     border-radius: 0px 10px 10px 0px;
 }
+
+#container-monitoramento{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.barra-monitoramento {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    background-color: black;
+}
+
+#barra-monitoramento00 {
+    background-color: rgba(231, 231, 27, 0.89);
+    margin-right: 50px;
+}
+
+#barra-monitoramento01 {
+    background-color: rgba(5, 236, 5, 0.438);
+    margin-right: 50px;
+}
+
+#barra-monitoramento02 {
+    background-color: rgba(5, 190, 236, 0.651);
+}
