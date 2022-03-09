@@ -40,7 +40,7 @@ nav a {
 }
 
 section {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -192,4 +192,63 @@ section {
 
 .barra-monitoramento p {
     font-size: 12px;
+}
+
+.tela-dados {
+    display: flex;
+    padding-top:60px ;
+    padding-bottom:60px ;
+}
+
+.imagem-dados {
+    width: 60%;
+}
+
+.formulario-dados {
+    width: 40%;
+}
+
+.formulario-dados h1 {
+    margin-bottom: 40px;
+}
+
+.formulario-dados p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input-dados {
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 70%;
+    height: 25px;
+}
+
+.input-lado {
+    width: 32%;
+    margin-right: 15px;
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    height: 25px;
+}
+
+#botao-finalizar {
+    padding: 8px;
+    width: 20%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    margin-right: 5%;
+}
+
+.formulario-dados a {
+    text-decoration: none;
+    color: black;
 }
