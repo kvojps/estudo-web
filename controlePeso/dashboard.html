@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DashBoard</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="cadastro.html" class="logo">Controle seu peso</a>
+            <ul class="lista-navegacao">
+                <li><a href="dashboard.html">DashBoard</a></li>
+                <li><a href="">Atualizar dados</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h1>Monitoramento</h1>
+        <div class="container" id="container-monitoramento">
+            <div class="barra-monitoramento" id="barra-monitoramento00">
+                <p>Peso inicial</p>
+                <p>50.0kg</p>
+                <p>01/12/2022</p>
+            </div>
+            <div class="barra-monitoramento"id="barra-monitoramento01">
+                <p>Peso atual</p>
+                <p>50.0kg</p>
+                <p>01/12/2022</p>
+            </div>
+            <div class="barra-monitoramento" id="barra-monitoramento02">
+                <p>Meta de peso</p>
+                <p>50.0kg</p>
+                <p>01/12/2022</p>
+            </div>
+        </div>
+        <div class="container" id="enviar-peso">
+            <input type="number" name="" id="form-peso" placeholder="Peso">
+            <input type="button" value="Atualizar" id="botao-enviar">
+        </div>
+    </section>
+
+    <section>
+        <h1>Evolução</h1>
+        <div class="container" id="barra-evolucao">
+            <div id="barra-progresso00"><p id="paragrafo-evolucao">Progresso: 75%</p></div>
+            <div id="barra-progresso01"></div>
+        </div>
+        <div class="container" id="barra-evolucao">
+            <div id="barra-tempo00"><p id="paragrafo-evolucao">Tempo: 50%</p></div>
+            <div id="barra-tempo01"></div>
+        </div>
+    </section>
+
+    <section>
+        <h1>IMC</h1>
+        <div class="container" id="barra-imc">
+            <div id="barra-imc00">Abaixo do peso</div>
+            <div id="barra-imc01">Peso ideal</div>
+            <div id="barra-imc02">Acima do peso</div>
+        </div>
+    </section>
+
+    <section>
+        <h1>Comparativo</h1>
+        <div class="container" id="blocos-comparativo">
+            <div class="bloco" id="bloco00">
+                <p>-0.5 kg</p>
+                <p>Última medida</p>
+                <p>(55.0kg)</p>
+            </div>
+            <div class="bloco" id="bloco01">
+                <p>-4.5 kg</p>
+                <p>7 dias atrás</p>
+                <p>(55.0kg)</p>
+            </div>
+            <div class="bloco" id="bloco00">
+                <p>+2.5 kg</p>
+                <p>30 dias atrás</p>
+                <p>(55.0kg)</p>
+            </div>
+            <div class="bloco" id="bloco01">
+                <p>+0.5 kg</p>
+                <p>1 ano atrás</p>
+                <p>(55.0kg)</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h1>Histórico</h1>
+    </section>
+</body>
+</html>

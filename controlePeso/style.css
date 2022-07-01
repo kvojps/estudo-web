@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(128, 128, 128, 0.205);
+}
+
+header {
+    background-color: black;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo {
+    color: white;
+    font-size: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.lista-navegacao {
+    list-style: none;
+    display: flex;
+}
+
+.lista-navegacao li {
+    margin-left: 32px;
+}
+
+section {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#barra-evolucao {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#barra-progresso00 {
+    background-color: rgba(5, 236, 5, 0.651);
+    width: 75%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#barra-progresso01 {
+    background-color: rgba(128, 128, 128, 0.205);
+    width: 25%;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#barra-tempo00 {
+    background-color: rgba(5, 190, 236, 0.651);
+    width: 50%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#barra-tempo01 {
+    background-color: rgba(128, 128, 128, 0.205);
+    width: 50%;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#paragrafo-evolucao {
+    margin-left: 10px;
+}
+
+#blocos-comparativo {
+    display: flex;
+    justify-content:space-around;
+}
+
+.bloco {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#bloco00 {
+    background-color: rgba(5, 236, 5, 0.651);
+    text-align: center;
+    justify-content: center;
+}
+
+#bloco01 {
+    background-color: rgba(5, 190, 236, 0.651);
+    text-align: center;
+}
+
+#barra-imc {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    text-align: center;
+}
+
+#barra-imc00 {
+    background-color: rgba(231, 231, 27, 0.89);
+    width: 33.3%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#barra-imc01 {
+    background-color: rgba(5, 236, 5, 0.438);
+    width: 33.3%;
+}
+
+#barra-imc02 {
+    background-color: rgba(231, 27, 27, 0.76);
+    width: 33.3%;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#container-monitoramento{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.barra-monitoramento {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+#barra-monitoramento00 {
+    background-color: rgba(231, 231, 27, 0.89);
+    margin-right: 50px;
+}
+
+#barra-monitoramento01 {
+    background-color: rgba(5, 236, 5, 0.438);
+    margin-right: 50px;
+}
+
+#barra-monitoramento02 {
+    background-color: rgba(5, 190, 236, 0.651);
+}
+
+#enviar-peso {
+    display: flex;
+    justify-content: center;
+}
+
+#form-peso {
+    padding: 5px;
+    margin-right: 5px;
+    width: 100px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+#botao-enviar {
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.barra-monitoramento p {
+    font-size: 12px;
+}
+
+.tela-dados {
+    display: flex;
+    padding-top:60px ;
+    padding-bottom:60px ;
+}
+
+.imagem-dados {
+    width: 60%;
+}
+
+.formulario-dados {
+    width: 40%;
+}
+
+.formulario-dados h1 {
+    margin-bottom: 40px;
+}
+
+.formulario-dados p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input-dados {
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 70%;
+    height: 25px;
+}
+
+.input-lado {
+    width: 32%;
+    margin-right: 15px;
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    height: 25px;
+}
+
+#botao-finalizar {
+    padding: 8px;
+    width: 20%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    margin-right: 5%;
+}
+
+.formulario-dados a {
+    text-decoration: none;
+    color: black;
+}
