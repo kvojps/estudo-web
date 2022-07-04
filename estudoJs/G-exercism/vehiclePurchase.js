@@ -13,7 +13,6 @@ export function chooseVehicle(option1, option2) {
     return arrCar[0] + " is clearly the better choice."
 }
 
-
 export function calculateResellPrice(originalPrice, age) {
     if (age < 3) {
         return originalPrice * 0.8
